@@ -9,7 +9,7 @@ app.get("/",(req,res)=>{
     res.status(200)
     .json({
         "success":true,
-        "message":"Welcome to ScratchDB. A database build from scratch",
+        "message":"Welcome to ScratchDB. A database built from scratch",
         "data": null
     })
 })
